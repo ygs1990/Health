@@ -1,0 +1,2100 @@
+/************声明***************/
+html{
+    font-size:10px;
+}
+
+/************content***************/
+.content{
+    max-width: 1188px;
+    margin: 0 auto;
+}
+
+
+
+/************去除input的默认色***************/
+select,input{
+    -webkit-appearance:none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.5);
+}
+
+/************header***************/
+
+
+
+#header{position: relative;}
+#header .right{width:4rem;height:4rem;position: absolute;left: 0;top: 0;background: url("../images/san.svg") no-repeat center center;background-size: 80%;
+    transform:rotate(0deg);
+    -ms-transform:rotate(0deg);     /* IE 9 */
+    -moz-transform:rotate(0deg);    /* Firefox */
+    -webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+    -o-transform:rotate(0deg);
+    -webkit-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+#header  .right.on{background: url("../images/cheng.png") no-repeat center center;background-size: 55%;z-index: 99999;
+    transform:rotate(135deg);
+    -ms-transform:rotate(135deg);     /* IE 9 */
+    -moz-transform:rotate(135deg);    /* Firefox */
+    -webkit-transform:rotate(135deg); /* Safari 和 Chrome */
+    -o-transform:rotate(135deg);
+    -webkit-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;}
+
+.menu{overflow: hidden;background-color: #fff;width: 100%;position: absolute;left: 0;top:0;right: 0;z-index: 9999;height: 0;
+    -webkit-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.menu li{width: 100%;text-align: center;font-size: 0.16rem; list-style: none; height:60px;line-height: 60px}
+.menu li a{color: #496a9d;display: inline-block;width: 100%;text-align: center; text-decoration:none; font-size: 16px; font-family:"Microsoft JhengHei";}
+
+.nav{
+    width:100%;
+    height:70px;
+    line-height:70px;
+    position:fixed;
+    top:0;z-index:888;
+    background:#fff;
+    display:none;
+}
+.nav_content{
+    max-width: 1188px;
+    margin: 0 auto;
+}
+
+.nav a{
+    color:#414141;
+    text-decoration:none;
+    display:block;
+    float:left;
+    height:30px;
+    line-height:30px;
+    padding:18px 41px;
+    font-size:16px;
+    font-family:"微软雅黑 Light";
+}
+.nav a:hover{
+    background:#ccc;
+}
+
+.logo_a{
+    background: url("../images/logo5.svg") no-repeat center center;
+    background-size: cover;
+    width:188px;
+    height:44px;
+    float: left;
+    margin-left:49px;
+    margin-right:49px;
+    margin-top: 12px;
+
+}
+
+.header{
+    background: url("../images/beijing.png") no-repeat center center;
+    background-size: cover;
+    height: 752px;
+    width:100%;
+
+}
+.clear{
+    max-width: 1188px;
+    margin: 0 auto;
+    animation: fade-in;
+  animation-duration:1.5s;
+}
+
+
+
+
+
+
+.clear a{
+    display:block;
+    float:left;
+    height:30px;
+    line-height:30px;
+    padding:0 41px;
+    margin-top: 54px;
+    font-size:16px;
+    font-family:"微软雅黑 Light";
+    color: #fff;
+}
+
+.clear .logo{
+    background: url("../images/LOGO.svg") no-repeat center center;
+    background-size: contain;
+    width:24%;
+    height:44px;
+    float: left;
+    margin-top: 30px;
+}
+
+
+.header p{
+    font-size:16px;
+    font-weight: 900;
+    font-family: "微软雅黑 Light";
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+    height: 32px;
+    margin-bottom: 32px;
+    letter-spacing:18px;
+}
+
+.header .heart{
+    height: 476px;
+    width:35%;
+    background: url("../images/header_03.jpg") no-repeat center center;
+    background-size: contain;
+}
+
+.header h3{
+    font-family: "微软雅黑 Light";
+    color: #fff;
+    font-size: 3rem;
+    letter-spacing:3rem;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.triangle{
+    position: absolute;
+    bottom: 436px;
+    left: 48%;
+    background: url("../images/xiaojian.png") no-repeat bottom center;
+    height: 30px;
+    width: 62px;
+}
+
+
+
+
+/**************        pageOne     *************/
+.pageOne{
+    background:#eaecf0;
+    height: 604px;
+}
+
+
+
+.line-title{
+    width:380px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.line-title .section-heading {
+    margin-bottom:1.4rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    width: 100%;
+    background-color: #7c7d7f;
+    position: relative;
+}
+.line-title .section-heading span{
+    background-color:  #eaecf0;
+    display: block;
+    width: 154px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    left: 50%;
+    margin-left: -79px;
+    text-align: center;
+    overflow: hidden;
+    font-family: "微软雅黑 Light";
+    font-size: 26px;
+    color: #333;
+}
+
+.pageOne h4{
+    font-size: 2rem;
+    font-family: Arial;
+    color: #b4b4b4;
+    text-align: center;
+    line-height: 42px;
+    height: 42px;
+}
+
+.pageOne h5{
+    font-family: "微软雅黑 Light";
+    font-size: 18px;
+    height: 36px;
+    line-height: 36px;
+    color: #6d6d6d;
+    text-align: center;
+}
+
+.pageOne h6{
+    font-family: "微软雅黑 Light";
+    color: #6d6d6d;
+    text-align: center;
+    font-size: 16px;
+    height: 18px;
+    line-height:18px;
+    margin-bottom: 10px;
+}
+
+.pageOne p{
+    font-family: "微软雅黑 Light";
+    font-size: 1.8rem;
+    line-height:40px;
+    height: 40px;
+    text-align:center;
+    color: #828283;
+    padding-bottom: 42px;
+}
+
+
+/**************        pageTwo     *************/
+
+.pageTwo{
+    height: 620px;
+    background: #fff;
+}
+
+
+.page-title{
+    width:380px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.page-title .page-heading {
+    margin-bottom:1.4rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    width: 100%;
+    background-color: #7c7d7f;
+    position: relative;
+}
+.page-title .page-heading span{
+    background-color:  #fff;
+    display: block;
+    width:154px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    left: 50%;
+    margin-left: -78px;
+    text-align: center;
+    overflow: hidden;
+    font-family: "微软雅黑 Light";
+    font-size: 26px;
+    color: #333;
+}
+
+
+.pageTwo h3{
+    font-size: 2rem;
+    font-family: Arial;
+    color: #b4b4b4;
+    text-align: center;
+    line-height: 42px;
+    height: 42px;
+}
+
+.pageTwo_four img{
+    margin:0 auto;
+    padding-bottom: 1rem;
+    padding-top: 5.2rem;
+    display: block;
+    width: 106px;
+    height: 82px;
+    transition:all 1s;
+}
+
+.pageTwo_four > img:hover{
+  /* margin-bottom: 40px;*/
+    margin-top: -40px;
+}
+
+.pageTwo .pageTwo_four{
+    float: left;
+    width:25%;
+}
+
+.pageTwo_four .business{
+    height: 210px;
+    border: 1px solid #4e6fa4;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 5%;
+}
+
+.business h3{
+    font-size: 2.4rem;
+    font-family: "微软雅黑 Light";
+    line-height: 50px;
+    height: 50px;
+    margin-top: 1rem;
+    color: #313030;
+
+}
+.business p{
+    font-size: 1.6rem;
+    font-family: "微软雅黑 Light";
+    line-height: 28px;
+    height: 28px;
+    margin-top: 0.8rem;
+    color: #8c8c8c;
+}
+
+
+/**************        pageFour     *************/
+.pageFour{
+    height: 808px;
+    background: #eaecf0;
+}
+
+
+.pageFour h6{
+    font-size: 2rem;
+    font-family: Arial;
+    color: #b4b4b4;
+    text-align: center;
+    line-height: 42px;
+    height: 42px;
+}
+
+.Four-title{
+    width:380px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.Four-title .Four-heading {
+    margin-bottom:1.4rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    width: 100%;
+    background-color: #7c7d7f;
+    position: relative;
+}
+.Four-title .Four-heading span{
+    background-color:  #eaecf0;
+    display: block;
+    width: 154px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    left: 50%;
+    margin-left: -78px;
+    text-align: center;
+    overflow: hidden;
+    font-family: "微软雅黑 Light";
+    font-size: 26px;
+    color: #333;
+}
+
+
+.product_one img{
+    display: block;
+    width:130px;
+    margin: 0 auto;
+    padding-bottom:30px;
+    padding-top:68px;
+    transition: all 1s;
+}
+
+.product_one img:hover{
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+
+.product_one{
+    float: left;
+    width: 33.2%;
+}
+.product_two{
+    padding-top:50px;
+    border: 1px solid #929292;
+    border-radius:10px;
+    background: #fff;
+    margin: 0 8%;
+    width: 87%;
+    height: 250px;
+}
+
+.product_three p{
+    font-family: "微软雅黑 Light";
+    font-size:1.6rem;
+    height: 28px;
+    line-height:28px;
+    margin-top:3rem;
+    color: #767676;
+    text-align: left;
+    padding: 0px 36px;
+}
+
+
+.show_a:hover{
+    background: #eaecf0;
+}
+
+.show_a{
+    width: 99px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 99;
+    background: #fff;
+}
+
+
+.show{
+    width: 99px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: 99;
+    background: #fff;
+}
+
+.show:hover{
+    background: #eaecf0;
+}
+
+
+.pageFive{
+    position:relative;
+}
+
+
+/**************        pageFive     *************/
+.pageFive .Preoperative{
+    height: 576px;
+    background: #4e6fa4;
+}
+
+.Preoperative img{
+    width:30%;
+    padding-top:10rem;
+    padding-left: 11.9rem;
+    float: left;
+    padding-right: 13.8rem;
+    display: block;
+    max-width: 100%;
+}
+
+.Preoperative h5{
+    color: #fff;
+    height: 54px;
+    line-height: 54px;
+    margin-top: 11rem;
+    font-family: "微软雅黑 Light";
+    font-size: 3.4rem;
+}
+
+.Preoperative h6{
+    color: #fff;
+    height:36px;
+    line-height:36px;
+    font-family: "微软雅黑 Light";
+    font-size: 1.6rem;
+}
+
+
+
+.pageFive .operation{
+    background: #eaecf0;
+    height: 600px;
+}
+
+.five_right{
+    float: left;
+    width: 34%;
+
+}
+
+.five_app{
+    background: url("../images/page18.jpg") no-repeat left center ;
+    width: 46%;
+    height:62px;
+    background-size: contain;
+    float: left;
+    margin-top:5rem;
+    margin-right: 6.2rem;
+
+
+}
+
+
+
+.five_code{
+    background: url("../images/weima1.svg") no-repeat right ;
+    width: 26%;
+    height: 104px;
+    background-size: contain;
+    float: left;
+    margin-top:3rem;
+    margin-left: -3rem;
+}
+
+
+.care{
+    float: left;
+    margin-top: -20px;
+    margin-right: 150px;
+
+}
+
+ .care h2{
+    height: 56px;
+    line-height: 56px;
+    font-size: 3.4rem;
+    font-family:"微软雅黑 Light";
+    color: #333;
+}
+
+ .care h3{
+    height:42px;
+    line-height:42px;
+    font-size:2rem;
+    font-family:"微软雅黑 Light";
+    color: #333;
+
+}
+
+
+.care p{
+    height: 30px;
+    line-height:30px;
+    font-size: 2rem;
+    font-family:"微软雅黑 Light";
+    color: #333;
+    margin-bottom: 54px;
+}
+
+
+.care span{
+    width:22%;
+    height: 66px;
+    line-height: 66px;
+    background: #b4b4b4;
+    font-family:"微软雅黑 Light";
+    color: #fff;
+    font-size: 2.2rem;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+
+}
+/*
+.swiper-slide img{
+    display: block;
+    margin-top: 84px;
+    width: 482px;
+}*/
+
+.care_logo{
+    background: url("../images/page20.png") no-repeat right center;
+    width: 482px;
+    height: 336px;
+}
+
+
+html, body {
+    position: relative;
+    height: 100%;
+}
+
+.swiper-container {
+    height:602px;
+}
+.swiper-slide {
+    text-align: left;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+
+    /**************        pageSix     *************/
+.pageSix{
+   background: url("../images/footer.png")no-repeat center center;
+    background-size: cover;
+    height: 980px;
+}
+
+.pageSix h3{
+    font-family: Arial;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    font-size: 2rem;
+}
+
+
+.Six-title{
+    width:380px;
+    margin: 0 auto;
+    padding-top:66px;
+}
+
+.Six-title .Six-heading {
+    margin-bottom:1.4rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+}
+.Six-title .Six-heading span{
+    background-color:  #c9bdc9;
+    display: block;
+    width: 154px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    left: 50%;
+    margin-left: -75px;
+    text-align: center;
+    overflow: hidden;
+    font-family: "微软雅黑 Light";
+    font-size: 26px;
+    color: #fff;
+}
+
+.pageSix h4{
+    height: 60px;
+    line-height:60px;
+    color: #fff;
+    font-family: "微软雅黑 Light";
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.pageSix form{
+    margin-left: 182px;
+}
+
+
+.pageSix .six{
+    float: left;
+    padding: 0 31px;
+    width: 37%;
+
+}
+
+.six input{
+    height: 48px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border: 1px solid #d8d8d8;
+    background: #fcfcfc;
+
+
+}
+
+.six input:focus{
+    -webkit-box-shadow: 0 0 10px #8c8c8c;
+    -moz-box-shadow:0 0 10px #8c8c8c;
+    box-shadow: 0 0 10px #8c8c8c;
+    border-color:#fff ;
+    outline:0;
+    background: #fff;
+
+}
+.message{
+    width:84%;
+    height: 210px;
+    margin-top: 1.8rem;
+    border: 0;
+    padding-left: 10px;
+}
+
+.message:focus{
+    -webkit-box-shadow: 0 0 10px #8c8c8c;
+    -moz-box-shadow:0 0 10px #8c8c8c;
+    box-shadow: 0 0 10px #8c8c8c;
+    border-color:#fff ;
+    outline:0;
+    background: #fff;
+}
+
+.text{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 2rem;
+}
+
+
+.button{
+    width:13%;
+    height:42px;
+    border-bottom-right-radius:22px;
+    border-bottom-left-radius:22px;
+    border-top-left-radius:22px;
+    border-top-right-radius:22px;
+    background-color: #4e6fa4;
+    margin-top: 20px;
+    margin-left: 354px;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    font-family:'微软雅黑 Regular';
+    letter-spacing: 6px;
+}
+
+.map{
+   max-width:1188px;
+    height: 270px;
+    margin-top: 5.2rem;
+}
+
+.map .map_left{
+    width:66%;
+    height: 270px;
+    float: left;
+    margin-left: 26px;
+}
+.address{
+    width:30%;
+    height: 232px;
+    background: #4e6fa4;
+    float: left;
+    padding-top:38px;
+}
+
+.address img{
+    margin-left:1.2rem;
+}
+
+.address p{
+    margin-left:3rem;
+    line-height:0;
+    height: 42px;
+    font-size:1.4rem;
+    font-family: "微软雅黑 Light";
+    color: #fff;
+}
+
+
+
+.address_bei{
+    margin-top: -0.6rem;
+}
+
+.address_xin{
+    margin-top: -0.7rem;
+}
+
+.address_email{
+    margin-top: -0.6rem;
+}
+
+.address_Telephone{
+    margin-top: -0.7rem;
+}
+
+
+/**************        footer     *************/
+.footer{
+    background: #4e6fa4;
+    height: 268px;
+
+}
+.code{
+    margin-left: 492px;
+    padding-bottom: 24px;
+}
+
+.code img{
+    float: left;
+    padding-top: 66px;
+    display:block;
+    width: 80px;
+    height: 80px;
+}
+
+.code .sweep{
+    float: left;
+    text-align:center;
+    font-family: "微软雅黑 Light";
+    font-size: 1.4rem;
+    color: #fff;
+    padding-top: 66px;
+}
+
+.code .sweep p{
+    text-align: left;
+    margin-left: 1.2rem;
+    line-height: 24px;
+    height: 24px;
+}
+
+.footer a{
+    text-align: center;
+    font-family: "微软雅黑 Light";
+    font-size: 1.6rem;
+    color: #fff;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    letter-spacing: 4px;
+}
+
+
+.footer span{
+    display: block;
+    text-align: center;
+    font-family: "微软雅黑 Light";
+    font-size: 1.6rem;
+    color: #fff;
+    height: 28px;
+    line-height: 28px;
+}
+/**************min-width: 1200px*************/
+
+@media screen and (min-width:1200px) {
+
+.menu  ,.right{
+    display:none;
+}
+}
+
+/**************分辨率低的pc端*************/
+@media  screen and (min-width:992px) and (max-width:1199px){
+
+    .menu{
+        display:none;
+    }
+
+    .nav a{
+        float:left;
+        height:30px;
+        line-height:30px;
+        padding:18px 36px;
+        font-size: 1rem;
+    }
+
+    .right{
+        display:none;
+    }
+
+
+    .five_right{
+        float: left;
+        width: 34%;
+
+    }
+
+
+    .Preoperative h5{
+        height: 54px;
+        line-height: 54px;
+        margin-top: 13rem;
+        font-size: 3rem;
+    }
+
+    .Preoperative h6{
+        height:36px;
+        line-height:36px;
+        font-size: 1.1rem;
+    }
+
+    .five_app{
+        width:56%;
+        height:62px;
+        margin-top: 8rem;
+        margin-right: 3rem;
+
+
+    }
+    .five_code{
+        width:28%;
+        margin-top: 5.6rem;
+    }
+
+
+
+    .care {
+        margin-right: 60px;
+    }
+
+    .care h2{
+        font-size: 3rem;
+    }
+
+    .care h3{
+        font-size:1.5rem;
+
+    }
+
+
+    .care p{
+        font-size: 1.5rem;
+    }
+
+
+    .care span{
+        width:22%;
+        height:60px;
+        line-height:60px;
+        font-size:1.8rem;
+
+    }
+
+    .swiper-slide img{
+        width:40%;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+/**************pai端*************/
+@media  screen and (min-width:768px) and (max-width:991px){
+    .menu,.right{
+        display:none;
+    }
+
+    .header h3{
+        font-size:2.5rem;
+
+    }
+
+
+    .clear a{
+        padding:0  18px;
+        font-family:"微软雅黑 Light";
+    }
+
+    .clear .logo {
+        width: 17%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+    .nav a{
+        float:left;
+        height:30px;
+        line-height:30px;
+        padding:18px 16px;
+        font-size: 0.8rem;
+    }
+
+    .header p {
+        font-weight: 500;
+        letter-spacing: 18px;
+        line-height:0;
+        height:0;
+        margin-bottom:0;
+    }
+
+
+
+
+    .pageOne h4{
+        font-size:0.5rem;
+        font-family: Arial;
+        color: #b4b4b4;
+        text-align: center;
+        line-height: 42px;
+        height: 42px;
+    }
+
+
+    .pageOne p{
+        font-family: "微软雅黑 Light";
+        font-size: 1.6rem;
+        line-height: 40px;
+        height: 40px;
+        text-align: center;
+        color: #828283;
+        padding-bottom: 42px;
+    }
+
+    .pageTwo {
+        margin: 0 2rem;
+    }
+
+
+
+    .pageTwo h3{
+        font-size:1.5rem;
+        text-align: center;
+    }
+
+    .product{
+        margin: 0 2rem;
+    }
+
+
+    .pageTwo_four .business {
+        margin: 0 3%;
+    }
+
+    .pageFour h6{
+        font-size:1.5rem;
+        font-family: Arial;
+        color: #b4b4b4;
+        text-align: center;
+        line-height: 42px;
+        height: 42px;
+    }
+
+
+
+    .Preoperative h6{
+        height:36px;
+        line-height:36px;
+        font-size: 1rem;
+    }
+
+    .product_two {
+        padding-top:0;
+    }
+
+    .product_three p {
+        height: 48px;
+
+    }
+
+    .pageSix h3{
+        line-height: 40px;
+        height: 40px;
+        font-size:1.5rem;
+    }
+
+
+
+    .pageSix h4{
+        font-size:1.5rem;
+        text-align: center;
+    }
+
+    .Preoperative h5{
+        height: 54px;
+        line-height: 54px;
+        margin-top: 14rem;
+        font-size:2.3rem;
+    }
+
+    .Preoperative h6{
+        height:36px;
+        line-height:36px;
+        font-size:0.8rem;
+    }
+
+    .five_app{
+        max-width: 53%;
+        height: 45px;
+        margin-top: 2rem;
+        margin-right: 7rem;
+
+
+    }
+    .five_code{
+        height: 84px;
+        margin-top: 0;
+    }
+
+    .Preoperative img{
+        padding-top:14rem;
+        padding-left:3rem;
+        padding-right: 8rem;
+        max-width: 100%;
+    }
+    .six input {
+        width: 92%;
+        height: 48px;
+
+    }
+
+    .text {
+        padding: 0;
+    }
+
+    .pageSix .six {
+        margin: 8px 0;
+        width: 76%;
+        padding: 0;
+    }
+
+    .message {
+        margin-left: 0;
+        width: 70%;
+        padding-left: 0;
+        margin-top: 1rem;
+
+    }
+
+    .triangle {
+        position: absolute;
+        bottom: 243px;
+        left: 43%;
+    }
+
+    .care_logo {
+        background: url(../images/page20.png) no-repeat right center;
+        height: 336px;
+        background-size: contain;
+        width: 50%;
+        margin-right: 4rem;
+    }
+
+
+
+    .button {
+        width: 20%;
+        height: 42px;
+        margin-left: 12.8rem;
+    }
+
+    .map {
+        padding: 0 1rem;
+        margin-top: 3rem;
+    }
+
+    .address img {
+        margin-left: 1rem;
+    }
+
+    .address p {
+        margin-left: 1.6rem;
+        font-size: 1.4rem;
+        line-height: 23px;
+        height: 64px;
+        padding-left: 26px;
+        padding-right: 20px;
+    }
+    .map .map_left {
+        width: 61%;
+    }
+
+
+    .address_Telephone {
+        margin-top: -1.7rem;
+    }
+    .address_email {
+        margin-top: -1.6rem;
+    }
+    .address_xin {
+        margin-top: -1.7rem;
+    }
+
+    .address_bei {
+        margin-top: -1.6rem;
+    }
+
+    .code {
+        margin-left: 25rem;
+    }
+
+    .care {
+        margin-right: 60px;
+        margin-top:18px;
+    }
+
+    .care h2{
+        font-size:3rem;
+        margin-left: 4rem;
+    }
+
+    .care h3{
+        font-size: 1.5rem;
+        margin-left: 4rem;
+        line-height: 28px;
+
+    }
+
+
+    .care p{
+        font-size: 1.5rem;
+        margin-left: 4rem;
+        line-height: 60px;
+        margin-bottom: 30px;
+    }
+
+
+    .care span{
+        width: 22%;
+        height: 58px;
+        line-height: 58px;
+        font-size: 1.5rem;
+        margin-left: 4rem;
+
+    }
+
+
+    .swiper-slide img{
+        display: block;
+        margin-top: 84px;
+        width: 482px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/**************手机端*************/
+@media  screen and (min-width:480px) and (max-width:767px){
+    /************header***************/
+
+    .right{
+        display:none;
+    }
+
+    .menu{
+        display:block;
+    }
+
+    .clear a{
+      display: none;
+    }
+
+    .clear .logo {
+        height: 32px;
+        width: 24%;
+        margin: 14px 36%;
+    }
+
+
+
+    .header{
+        width: 100%;
+        height:500px;
+        margin:0 auto;
+    }
+    .header .heart{
+        height:276px;
+    }
+
+
+    .header h3{
+        font-size:2rem;
+
+    }
+
+
+    /************pageOne***************/
+    .line-title{
+        width:380px;
+        margin: 0 auto;
+        padding-top: 100px;
+    }
+
+
+    .pageOne span{
+        font-size:0.8rem;
+        font-family: Arial;
+        color: #b4b4b4;
+        margin-left:26rem;
+        line-height: 42px;
+        height: 42px;
+    }
+
+    .pageOne h4{
+        font-size:0.2rem;
+        font-family: Arial;
+        color: #b4b4b4;
+        text-align: center;
+        line-height: 42px;
+        height: 42px;
+    }
+
+
+
+
+    .pageOne p{
+        text-align: center;
+        font-family: "微软雅黑 Light";
+        font-size: 0.5rem;
+        line-height: 36px;
+        height: 36px;
+        text-align: left;
+        padding: 0 5rem;
+    }
+
+    /************pageTwo***************/
+
+    .pageTwo h3{
+        font-size:1rem;
+        text-align: center;
+    }
+
+   /* .pageTwo .pageTwo_four{
+        width:50%;
+    } 有问题的百分之50的时候掉下里一个*/
+
+
+    .product_one{
+        width:33%;
+    }
+    .product_two{
+        margin: 0 2%;
+    }
+
+
+
+    /************pageThree***************/
+    .pageFour h6{
+        font-size:1rem;
+        text-align: center;
+    }
+
+
+    .five_right{
+        width: 99%;
+    }
+
+    .Preoperative h5{
+        height: 54px;
+        line-height: 54px;
+        margin-top: 1rem;
+        font-size: 2.3rem;
+        text-align: center;
+    }
+
+    .Preoperative h6{
+        height: 36px;
+        line-height: 36px;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .five_app{
+        height: 48px;
+        margin-top: 8rem;
+        margin-right: 2rem;
+        width: 34%;
+        margin-left: 6rem;
+
+
+    }
+    .five_code{
+        height: 84px;
+        width: 17%;
+    }
+
+    .Preoperative img{
+        padding-top: 4rem;
+        width: 50%;
+        padding-left: 10rem;
+    }
+
+
+
+
+    .pageSix h3{
+        line-height: 40px;
+        height: 40px;
+        font-size:1rem;
+    }
+
+
+    .pageSix h4{
+        font-size:1rem;
+    }
+
+
+    .map .map_left{
+        width:49%;
+        margin-left: 8px;
+    }
+    .address{
+        width:49%;
+    }
+
+    .address img{
+        margin-left:8%;
+    }
+
+    .address p{
+        font-size:1rem;
+        margin-left:15%;
+    }
+
+
+
+    .button{
+        width:49%;
+        margin-top: 20px;
+        margin-left:10%;
+        border: 0;
+    }
+
+
+    .code .sweep{
+        text-align:center;
+        font-size:0.8rem;
+        color: #fff;
+    }
+
+
+    .footer a{
+        text-align: center;
+        font-size:0.8rem;
+    }
+
+    .code{
+        margin-left:36%;
+    }
+
+
+
+    .care {
+        margin-right: 10px;
+        background: url(../images/page20.png) no-repeat top center;
+        height: 165px;
+        padding-top: 335px;
+        max-width: 100%;
+        margin-top: -46px;
+    }
+
+    .care h2{
+        font-size:1.5rem;
+    }
+
+    .care h3{
+        font-size:0.8rem;
+        height: 27px;
+        line-height: 9px;
+
+    }
+
+
+    .care p{
+        font-size:0.8rem;
+        margin-bottom: 20px;
+    }
+
+
+    .care span{
+        width:22%;
+        height: 40px;
+        line-height: 40px;
+        font-size: 1rem;
+
+    }
+
+
+    .swiper-button-next,.swiper-button-prev,.care_logo{
+        display: none;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/**************分辨率更低的手机端*************/
+@media screen and (max-width:479px) {
+    /************header***************/
+
+    .menu ,.right{
+        display:block;
+    }
+
+    .header .navRight{
+        display: none;
+    }
+    .header .navLeft{
+        display: none;
+    }
+
+    .clear .logo {
+        height: 21px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+
+
+
+
+
+
+    .header{
+        width: 100%;
+        height:500px;
+        margin: 0 auto;
+    }
+
+    .menu{
+        display: block;
+    }
+    .header .heart{
+        height:276px;
+    }
+
+
+    .header h3{
+        font-size:1.5rem;
+        letter-spacing: 1rem;
+
+    }
+
+    .triangle {
+        position: absolute;
+        bottom: 207px;
+        left: 41%;
+    }
+
+    /************pageOne***************/
+    .line-title{
+        width:200px;
+        padding-top: 60px;
+    }
+
+    .line-title .section-heading span{
+        font-size:14px;
+        width:90px;
+
+    }
+
+    .line-title .section-heading span {
+        margin-left: -45px;
+    }
+
+    .line-title .section-heading {
+        width: 80%;
+
+    }
+
+    .pageOne h4{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .pageOne p{
+        font-size:12px;
+        line-height: 31px;
+        height: 31px;
+        text-align: center;
+        padding: 0 4rem;
+    }
+
+
+    /************pageTwo***************/
+
+    .pageTwo .pageTwo_four{
+        width:99%;
+    }
+
+    .pageTwo_four .business{
+        margin: 0 19%;
+        height: 156px;
+    }
+
+    .pageTwo {
+        height: 1248px;
+    }
+
+    .page-title{
+        width:164px;
+        padding-top:40px;
+    }
+
+    .page-title .page-heading span{
+        font-size:14px;
+        width: 90px;
+        margin-left: -45px;
+
+    }
+
+    .pageTwo span{
+        font-size: 0.5rem;
+    }
+
+    .pageTwo .pageTwo_four {
+        float: left;
+    }
+
+   /* .row{
+        margin-top: -57px;
+    }*/
+
+    .pageTwo h3{
+        font-size: 14px;
+        text-align: center;
+        line-height: 25px;
+        height: 25px;
+    }
+
+    .pageTwo_four img{
+        width: 24%;
+        padding: 14px 0;
+    }
+
+    .product_two {
+        height: 160px;
+        padding-top: 30px;
+        width: 70%;
+        margin: 0 16%;
+    }
+
+    .product_one img {
+        display: block;
+        width: 30%;
+        padding-top:22px;
+        padding-bottom: 22px;
+    }
+
+
+
+
+    /************pageFour***************/
+
+    .product_one{
+        width:99%;
+    }
+
+    .pageFour {
+        height:1200px;
+    }
+
+    .Four-title{
+        width:164px;
+        padding-top: 40px;
+    }
+    .Four-title .Four-heading span{
+        font-size:14px;
+        color: #333;
+        width: 90px;
+        margin-left: -45px;
+    }
+
+    .pageFour span{
+        font-size:0.5rem;
+        color: #b4b4b4;
+        margin-left:7rem;
+    }
+
+
+    .product_three p{
+        font-family: "微软雅黑 Light";
+        font-size:14px;
+        height:44px;
+        line-height:25px;
+        margin-top:2rem;
+        text-align: left;
+        color: #767676;
+        padding: 0 1rem;
+    }
+
+    .product_three {
+       /* background: url(../images/page8.png) no-repeat 0px 8px;*/
+        margin-left: 1rem;
+    }
+
+
+    .pageFour h6{
+        font-size: 14px;
+        text-align: center;
+    }
+
+
+    .five_right{
+        width:100%;
+    }
+
+    .Preoperative h5{
+        height: 54px;
+        line-height: 54px;
+        margin-top: 1rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .Preoperative h6{
+        height: 36px;
+        line-height: 36px;
+        font-size: 0.6rem;
+        text-align: center;
+    }
+
+    .five_app{
+        margin-right:3rem;
+        margin-left:3rem;
+        margin-top: 6rem;
+    }
+
+    .five_code{
+        width:26%;
+        margin-top: 2.6rem;
+    }
+
+    .Preoperative img{
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 5rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .show_a{
+        display: none;
+    }
+
+    .show{
+        display: none;
+    }
+
+    .Six-title{
+        width:164px;
+        padding-top:66px;
+    }
+
+    .Six-title .Six-heading span{
+        font-size: 14px;
+        margin-left: -45px;
+        width: 90px;
+    }
+
+
+    .pageSix h3{
+        line-height:30px;
+        height:30px;
+        font-size: 14px;
+    }
+
+    .pageSix h4{
+        font-size:1rem;
+        line-height: 46px;
+        height: 60px;
+        margin-bottom:0;
+    }
+
+
+
+
+
+    .pageSix form{
+        margin-left:0;
+    }
+
+
+    .pageSix .six{
+        box-sizing: border-box;
+        width: 100%;
+        float: none;
+        padding: 0 2rem;
+
+    }
+
+    .six input{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .message{
+        width:100%;
+        height: 210px;
+        margin-left:0;
+        margin-top: 0;
+        padding-left: 0;
+    }
+
+    .map .map_left{
+        width: 88%;
+        margin: 0 26px;
+    }
+    .address{
+        width: 88%;
+        margin: 0 26px;
+        padding-top:0.1rem;
+    }
+    .map {
+        margin-top: 0.1rem;
+    }
+    .address p {
+        margin-left:4.5rem;
+        line-height: 0;
+        height: 19px;
+        font-size: 14px;
+    }
+
+    .address img {
+        margin-left: 2rem;
+        margin-top: 1.5rem;
+    }
+
+
+
+    .button{
+        width: 100%;
+        display: block;
+        height: 42px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .but{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .pageSix {
+        height: 1100px;
+    }
+
+    .code .sweep{
+        text-align:center;
+        font-size: 14px;
+        color: #fff;
+    }
+
+
+    .footer a{
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .code{
+        margin-left:25%;
+    }
+
+
+    .care {
+        margin-right: 10px;
+        margin-left: 10px;
+        background: url(../images/page20.png) no-repeat top center;
+        background-size: contain;
+        height: 165px;
+        padding-top:250px;
+        margin-top: -46px;
+        width: 85%;
+    }
+
+    .care h2{
+        font-size:1.5rem;
+    }
+
+    .care h3{
+        font-size:0.8rem;
+        height: 27px;
+        line-height: 9px;
+
+    }
+
+
+    .care p{
+        font-size:0.8rem;
+        margin-bottom: 20px;
+    }
+
+
+    .care span{
+        width:22%;
+        height: 40px;
+        line-height: 40px;
+        font-size: 1rem;
+
+    }
+
+    .swiper-button-next,.swiper-button-prev,.care_logo{
+        display: none;
+    }
+
+
+
+}
+
+
+/*横屏 css*/
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+    .clear a {
+        display: block;
+        float: left;
+        height: 30px;
+        line-height: 30px;
+        padding: 0 33px;
+        margin-top: 54px;
+        font-size: 16px;
+        font-family: "微软雅黑 Light";
+        color: #fff;
+    }
+
+
+    .nav a{
+        color: #414141;
+        text-decoration: none;
+        display: block;
+        float: left;
+        height: 30px;
+        line-height: 30px;
+        padding: 18px 29px;
+        font-size: 16px;
+        font-family: "微软雅黑 Light";
+    }
+
+    .triangle {
+        position: absolute;
+        bottom: -13px;
+        left: 45%;
+    }
+
+
+    .product_two {
+        padding-top: 25px;
+        height: 225px;
+    }
+
+    .Preoperative img {
+        padding-top: 14rem;
+    }
+
+
+    .button {
+        width: 23%;
+        margin-left: 22.8rem;
+        color: #fff;
+    }
+
+    .map {
+        margin-top: 5.2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .row{
+        padding: 0 2rem;
+    }
+
+    .product{
+        margin: 0 2rem;
+    }
+
+    .product_three {
+        padding: 0 1rem;
+        margin-left: 0;
+    }
+
+    .pageOne p {
+        margin: 0 2rem;
+    }
+    .code {
+        margin-left:400px;
+    }
+
+    .address {
+        width: 34%;
+        height: 232px;
+        background: #4e6fa4;
+        float: left;
+    }
+
+    .message {
+        width:79%;
+        padding-left:0;
+
+    }
+
+    .map .map_left {
+        width: 60%;
+        height: 270px;
+        float: left;
+        margin-left: 26px;
+    }
+
+
+    .pageSix .six {
+        float: left;
+        box-sizing: border-box;
+        width: 40%;
+        padding: 0 2rem;
+    }
+
+    .six input {
+        height: 48px;
+        border-radius: 5px;
+        border: 0;
+        box-sizing: border-box;
+        width: 100%;
+    }
+}
+
+
+/*竖屏 css*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+    .address {
+        width: 32%;
+        height: 232px;
+        background: #4e6fa4;
+        float: left;
+        padding-top: 3.2rem;
+    }
+}
